@@ -56,6 +56,11 @@ div {
     border: 1px solid Chocolate;
 }
 
+font-family: 'Roboto', sans-serif; 
+font-size: 16px; 
+color: #838994; 
+letter-spacing: 0.03em;
+
 
 .headersection{
 	background-color: #fff;
@@ -72,13 +77,24 @@ div {
 
 .headersection .logo{
 	width: 26px;
+	margin-top: 15px;
+	float: left;
+}
+
+
+
+.headersection .menubar{
+	float: right;
+
 }
 
 .headersection .menubar li{
-	display: inline-block;
+	display: inline;
+	line-height: 70px;
 }
 
-font-family: 'Roboto', sans-serif; 
-font-size: 16px; 
-color: #838994; 
-letter-spacing: 0.03em;
+.headersection .menubar > .active {
+    color: #4c5058;
+    font-weight: 600;
+}
+
