@@ -23,6 +23,11 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	font-family: 'Roboto', sans-serif; 
+	font-size: 16px; 
+	color: #838994; 
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased; /*Question: how to get the font to look smoother?*/
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -56,14 +61,11 @@ div {
     border: 1px solid Chocolate;
 }
 
-font-family: 'Roboto', sans-serif; 
-font-size: 16px; 
-color: #838994; 
-letter-spacing: 0.03em;
-
 
 .headersection{
 	background-color: #fff;
+	width: 100%;
+	position: fixed;
 }
 
 
@@ -72,6 +74,7 @@ letter-spacing: 0.03em;
     height: 70px;
     margin: 0 auto;
 	padding: 0px 15px;
+	border: none;
 
 }
 
@@ -85,12 +88,14 @@ letter-spacing: 0.03em;
 
 .headersection .menubar{
 	float: right;
+	color: #838994;
 
 }
 
 .headersection .menubar li{
-	display: inline;
+	display: inline-block;
 	line-height: 70px;
+	margin-left: 1.563rem;
 }
 
 .headersection .menubar > .active {
@@ -98,3 +103,49 @@ letter-spacing: 0.03em;
     font-weight: 600;
 }
 
+.headersection .menubar li:hover{
+	color: black;
+	cursor: pointer;
+}
+
+.introduction{
+	background-image: url('../images/background.jpg');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45.938rem;
+	overflow: auto;
+}
+
+.introduction .midtext{
+	text-align: center;
+	margin-top: 17.5rem;
+}
+
+.introduction .midtext h1{
+	font-size: 3.125rem;
+	color: #fff;
+}
+
+.introduction .midtext h2{
+	font-size: 1.563rem;
+	margin-top: 1.25rem;
+	color: #fff;
+}
+
+.introduction .midtext .buttons{
+	margin-top: 1.563rem;
+}
+
+button{
+	width: 9.688rem;
+	background-color: #f15a29;
+	border-color:  #f15a29;
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 1rem 1.5rem;
+	color: white;
+	font-size: 1.125rem;
+
+}
