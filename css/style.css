@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="css/style.css">
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -56,3 +55,31 @@ body {
 div {
     border: 1px solid Chocolate;
 }
+
+
+.headersection{
+	background-color: #fff;
+}
+
+
+.headersection > .content {
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;
+	padding: 0px 15px;
+
+}
+
+.logo{
+	width: 26px;
+}
+
+.menubar{
+	display: inline-block;
+	float:right;
+}
+
+font-family: 'Roboto', sans-serif; 
+font-size: 16px; 
+color: #838994; 
+letter-spacing: 0.03em;
