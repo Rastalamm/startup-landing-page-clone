@@ -70,13 +70,12 @@ div {
 
 }
 
-.logo{
+.headersection .logo{
 	width: 26px;
 }
 
-.menubar{
+.headersection .menubar li{
 	display: inline-block;
-	float:right;
 }
 
 font-family: 'Roboto', sans-serif; 
