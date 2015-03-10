@@ -53,13 +53,11 @@ table {
 	border-spacing: 0;
 }
 
-/*Making selections visible*/
+
 body {
     background-color: white;
 }
-div {
-    border: 1px solid Chocolate;
-}
+
 
 .headersection{
 	background-color: #fff;
@@ -154,7 +152,7 @@ button:hover{
 
 .columnsection{
 	background-color: white;
-	width: 75%;
+	width: 60%;
 	margin: auto;
 	
 }
@@ -182,12 +180,40 @@ button:hover{
 	text-align: center;
 	font-size: 1.5em;
 	margin-top: 5%;
+	color: black;
 }
 
 footer{
-	width: 755;
+	width: 60%;
 	border-top: 1px solid gray;
 	clear: both;
-	margin-top: 5%
+	margin: 15% auto;
 
+}
+
+.footercontent{
+	text-align: center;
+}
+
+.footercontent h3{
+	font-size: 1em;
+	color: black;
+	margin: 2% 0;
+}
+
+.footercontent .ficons{
+	width: 33%;
+	float: left;
+}
+
+.ficon .icon{
+	width: 33%;
+	float: left;
+}
+
+.footercontent h4{
+	font-size: 1em;
+	color: black;
+	clear: both;
+	margin: 2% 0;
 }
