@@ -55,7 +55,7 @@ table {
 
 /*Making selections visible*/
 body {
-    background-color: LightGray;
+    background-color: white;
 }
 div {
     border: 1px solid Chocolate;
@@ -154,3 +154,34 @@ button:hover{
     border-color: #cf3d0e;
     cursor: pointer;
 	}
+
+.columnsection{
+	background-color: white;
+	width: 100%;
+	
+}
+
+.columnsection .columnscontent{
+	margin: 5% 0;
+	text-align: center;
+}
+
+.columnscontent h2{
+	font-size: 2em;
+	color: black;
+}
+.columnscontent .iconcolumn{
+	width: 33%;
+	display: inline-block;
+}
+
+.iconpic{
+	margin: 0 auto;
+	float: left;
+}
+
+.icontext{
+	text-align: center;
+	font-size: 1em;
+	clear:both;
+}
