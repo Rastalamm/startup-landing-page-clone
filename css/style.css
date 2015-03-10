@@ -61,8 +61,6 @@ div {
     border: 1px solid Chocolate;
 }
 
-
-
 .headersection{
 	background-color: #fff;
 	width: 100%;
@@ -186,3 +184,10 @@ button:hover{
 	margin-top: 5%;
 }
 
+footer{
+	width: 755;
+	border-top: 1px solid gray;
+	clear: both;
+	margin-top: 5%
+
+}
