@@ -62,6 +62,7 @@ div {
 }
 
 
+
 .headersection{
 	background-color: #fff;
 	width: 100%;
@@ -83,8 +84,6 @@ div {
 	margin-top: 15px;
 	float: left;
 }
-
-
 
 .headersection .menubar{
 	float: right;
@@ -157,7 +156,8 @@ button:hover{
 
 .columnsection{
 	background-color: white;
-	width: 100%;
+	width: 75%;
+	margin: auto;
 	
 }
 
@@ -169,19 +169,20 @@ button:hover{
 .columnscontent h2{
 	font-size: 2em;
 	color: black;
+	margin-bottom: 2%
 }
 .columnscontent .iconcolumn{
 	width: 33%;
-	display: inline-block;
+	float: left;
 }
 
 .iconpic{
-	margin: 0 auto;
-	float: left;
+
 }
 
 .icontext{
 	text-align: center;
-	font-size: 1em;
-	clear:both;
+	font-size: 1.5em;
+	margin-top: 5%;
 }
+
